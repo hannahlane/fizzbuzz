@@ -15,8 +15,8 @@ if (h % 3 === 0 && h % 5 === 0) {
 } else if (h % 5 === 0) {
     document.write ("Buzz");
         
-} else  
-  {document.write(h);
+} else  {
+    document.write(h);
   }
 }
 
