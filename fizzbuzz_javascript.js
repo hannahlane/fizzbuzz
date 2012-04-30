@@ -3,20 +3,20 @@
 
 <script type="text/javascript">
 
-for (i=1; i<=100; i++) { 
-document.write("<br />");
+for (h=1; h<=100; h++) { 
+    document.write("<br />");
   
-if (i % 3 === 0 && i % 5 === 0) {
-      document.write("FizzBuzz"); 
+if (h % 3 === 0 && h % 5 === 0) {
+    document.write("FizzBuzz"); 
     
-} else if ( i % 3 === 0 ) { 
+} else if (h % 3 === 0 ) { 
     document.write("Fizz");
 
-} else if (i % 5 === 0) {
+} else if (h % 5 === 0) {
     document.write ("Buzz");
         
 } else  
-  {document.write(i);
+  {document.write(h);
   }
 }
 
